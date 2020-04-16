@@ -9,12 +9,6 @@ public class Main {
             System.out.println(pl1);
         } catch (ColorException | TypeException e) {
             System.err.println(e.getMessage() + "\n");
-            //e.printStackTrace();
-        }
-
-        @Override
-        public String toString () {
-            return "Plant is " + Plant.Type + Plant.Color + "!";
         }
 
     }

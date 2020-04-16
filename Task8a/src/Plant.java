@@ -16,6 +16,11 @@ public class Plant {
         this.color = c;
     }
 
+    @Override
+    public String toString () {
+        return "Plant is " + type + " " + color + "!";
+    }
+
     private Color colorStrToEnum(String color) throws ColorException {
         switch (color.toLowerCase()) {
             case "blue":
