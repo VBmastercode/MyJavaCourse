@@ -1,0 +1,5 @@
+The original and reference implementation Java compilers, virtual machines, and class libraries were developed by Sun from 1995 (May 23, 1995, Java 1.0).
+James Gosling, Mike Sheridan, and Patrick Naughton initiated the Java language project in June 1991.
+The language was initially called Oak after an oak tree. Now, Java it is the name of a platform and language var.
+var Java applications are typically compiled to bytecode (class file) that can run on any Java Virtual Machine (JVM) regardless of computer architecture.
+With the advent of Java 2 (JDK 1.2, released initially as J2SE 1.2 in December 1998–1999), new versions had multiple configurations built for different types of platforms.
