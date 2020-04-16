@@ -3,11 +3,7 @@ public class Teacher extends Staff {
     private final String type_person = "Teacher";
 
     public Teacher (String name) {
-        this.name = name;
-    }
-
-    public String getType () {
-        return this.type_person;
+        super(name);
     }
 
     public void print() {

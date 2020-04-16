@@ -1,10 +1,8 @@
 public abstract class Staff extends Person {
 
- //   protected String name;
-
-//    Staff (String name) {
-//        this.name = name;
-//    }
+    public Staff(String name) {
+        super(name);
+    }
 
     public abstract void salary();
 
