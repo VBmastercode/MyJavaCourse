@@ -2,7 +2,8 @@ public class Main {
 
     public static void main (String[] args) {
 
-        Person[] persons = {new Student(), new Student(), new Teacher(), new Cleaner(), new Teacher()};
+        Person[] persons = {new Student("Vasya"), new Student("Petya"), new Teacher("Igor"), new Cleaner("Oleg"), new Teacher("Nikolay")};
+
 
         persons[0].print();
         persons[1].print();
@@ -10,9 +11,8 @@ public class Main {
         persons[3].print();
         persons[4].print();
 
-        persons[2].salary();
-        persons[3].salary();
-        persons[4].salary();
-
+        ((Staff) persons[2]).salary();
+        ((Staff) persons[3]).salary();
+        ((Staff) persons[4]).salary();
     }
 }
